@@ -1,0 +1,24 @@
+{
+  "name": "repositorio-inicial",
+  "version": "1.0.0",
+  "description": "Jogo da Velha",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipefmo/repositorio-inicial.git"
+  },
+  "author": "Felipe Marinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felipefmo/repositorio-inicial/issues"
+  },
+  "homepage": "https://github.com/Felipefmo/repositorio-inicial#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
